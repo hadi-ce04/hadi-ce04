@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Abdul Hadi
+# Hi, I'm Hadi
 
 Computer Engineering Student @ FAST-NUCES Islamabad  
 *Exchange Student @ Epitech Paris*
