@@ -2,8 +2,7 @@
 
 # Hi, I'm Hadi
 
-Computer Engineering Student @ FAST-NUCES Islamabad  
-*Exchange Student @ Epitech Paris*
+Computer Engineering Student  @ Epitech Paris
 
 Embedded Systems · Automation · Robotics · Computer Vision
 
