@@ -68,6 +68,22 @@ Building a full-stack platform designed around collaborative studying, combining
 
 ---
 
+### ⚡ [SentinelGrid](https://github.com/hadi-ce04/sentinelgrid)
+
+> A real-time industrial monitoring platform that simulates machine telemetry, detects anomalies and visualizes machine health through a live operations dashboard.
+
+**Features**
+- Real-time machine telemetry
+- Industrial fleet simulation
+- Anomaly detection
+- Machine health monitoring
+- Fault injection & failure simulation
+- Live incident detection
+- WebSocket-powered dashboard
+
+**Built with:** Python · FastAPI · WebSockets · JavaScript · HTML · CSS
+
+
 ### 👁️ [Robot Vision YOLO](https://github.com/hadi-ce04/robot-vision-yolo)
 
 > Exploring computer vision and object detection as a foundation for robotic perception.
