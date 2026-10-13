@@ -17,7 +17,7 @@
 
   <img alt="Current areas of focus" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=700&lines=AI+Agents+%26+Security;Robotics+%26+Computer+Vision;Real-Time+Systems+%26+Automation;From+prototype+to+working+system" />
 
-  <p><b>Computer Engineering @ FAST-NUCES</b> &nbsp;•&nbsp; <b>Exchange @ Epitech Paris</b> 🇫🇷</p>
+  <p><b>Computer Engineering @ Epitech Paris</b> 🇫🇷</p>
   <p>Curious about systems that can <b>perceive, decide and act</b>.</p>
 
   <a href="#agentgate">AgentGate</a> &nbsp;•&nbsp;
