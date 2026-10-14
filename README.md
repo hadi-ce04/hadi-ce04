@@ -1,7 +1,7 @@
 <!-- GitHub Profile README | github.com/hadi-ce04 -->
 
 <div align="center">
-  <img width="100%" alt="Abdul Hadi — Computer Engineering and Intelligent Systems" src="https://capsule-render.vercel.app/api?type=waving&height=215&color=0:0D1117,50:172554,100:0891B2&text=Abdul%20Hadi&fontSize=56&fontColor=FFFFFF&fontAlignY=38&desc=Computer%20Engineering%20%7C%20AI%20%7C%20Robotics%20%7C%20Automation&descSize=17&descAlignY=59&animation=fadeIn" />
+  <img width="100%" alt=" Hadi — Computer Engineering and Intelligent Systems" src="https://capsule-render.vercel.app/api?type=waving&height=215&color=0:0D1117,50:172554,100:0891B2&text=Abdul%20Hadi&fontSize=56&fontColor=FFFFFF&fontAlignY=38&desc=Computer%20Engineering%20%7C%20AI%20%7C%20Robotics%20%7C%20Automation&descSize=17&descAlignY=59&animation=fadeIn" />
 
   <a href="https://github.com/hadi-ce04">
     <img alt="GitHub profile" src="https://img.shields.io/badge/GitHub-hadi--ce04-0D1117?style=for-the-badge&logo=github&logoColor=white" />
