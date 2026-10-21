@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+<title id="title">Abdul Hadi — Engineering Notebook</title>
+<desc id="desc">An editorial masthead with dark ink typography on a warm paper background, an orange folio label, and a technical line drawing.</desc>
+<rect width="1200" height="370" fill="#EEE9DF"/>
+<path d="M0 0H1200V13H0Z" fill="#253A32"/>
+<g stroke="#CBC7BD" stroke-width="1"><path d="M48 63H1152M48 306H1152"/><path d="M825 63V306"/></g>
+<rect x="48" y="39" width="195" height="27" fill="#E95133"/>
+<text x="58" y="58" font-family="monospace" font-size="14" letter-spacing="1.4" fill="#FFF7EB">PERSONAL FOLIO / 01</text>
+<text x="48" y="151" font-family="Georgia, 'Times New Roman', serif" font-size="69" font-weight="bold" fill="#202522">ABDUL</text>
+<text x="48" y="224" font-family="Georgia, 'Times New Roman', serif" font-size="69" font-weight="bold" fill="#202522">HADI<tspan fill="#E95133">.</tspan></text>
+<text x="51" y="268" font-family="Arial, sans-serif" font-size="17" letter-spacing="2.2" fill="#253A32">ENGINEERING NOTEBOOK</text>
+<g stroke="#253A32" stroke-width="2" fill="none" opacity=".9">
+<circle cx="993" cy="183" r="89"/><circle cx="993" cy="183" r="57"/><circle cx="993" cy="183" r="21"/>
+<path d="M868 183H1118M993 58V308M920 111L1068 255M1068 111L920 255" stroke-width="1"/>
+<path d="M901 100L917 80L939 99L962 70L989 88L1016 66L1037 91L1068 81L1081 110" stroke="#E95133" stroke-width="3"/>
+<circle cx="993" cy="183" r="5" fill="#E95133" stroke="none"/>
+<circle cx="1050" cy="126" r="6" fill="#E95133" stroke="none"/>
+<circle cx="936" cy="240" r="6" fill="#E95133" stroke="none"/>
+</g>
+<text x="841" y="297" font-family="monospace" font-size="13" fill="#253A32">PERCEIVE / DECIDE / ACT</text>
+<text x="48" y="339" font-family="monospace" font-size="14" fill="#253A32">SOFTWARE  /  INTELLIGENT SYSTEMS  /  PHYSICAL COMPUTING</text>
+<text x="1150" y="339" text-anchor="end" font-family="monospace" font-size="14" fill="#253A32">PARIS • 2026</text>
+</svg>
