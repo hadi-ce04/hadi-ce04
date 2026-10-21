@@ -1,194 +1,142 @@
-<!-- GitHub Profile README | github.com/hadi-ce04 -->
-
-<div align="center">
-  <img width="100%" alt=" Hadi — Computer Engineering and Intelligent Systems" src="https://capsule-render.vercel.app/api?type=waving&height=215&color=0:0D1117,50:172554,100:0891B2&text=Abdul%20Hadi&fontSize=56&fontColor=FFFFFF&fontAlignY=38&desc=Computer%20Engineering%20%7C%20AI%20%7C%20Robotics%20%7C%20Automation&descSize=17&descAlignY=59&animation=fadeIn" />
-
-  <a href="https://github.com/hadi-ce04">
-    <img alt="GitHub profile" src="https://img.shields.io/badge/GitHub-hadi--ce04-0D1117?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://github.com/hadi-ce04/agentgate">
-    <img alt="Explore AgentGate" src="https://img.shields.io/badge/Featured-AgentGate-06B6D4?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://studysync-henna-delta.vercel.app">
-    <img alt="Try StudySync" src="https://img.shields.io/badge/Live%20App-StudySync-2563EB?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-
-  <br /><br />
-
-  <img alt="Current areas of focus" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=700&lines=AI+Agents+%26+Security;Robotics+%26+Computer+Vision;Real-Time+Systems+%26+Automation;From+prototype+to+working+system" />
-
-  <p><b>Computer Engineering @ Epitech Paris</b> 🇫🇷</p>
-  <p>Curious about systems that can <b>perceive, decide and act</b>.</p>
-
-  <a href="#agentgate">AgentGate</a> &nbsp;•&nbsp;
-  <a href="#projects">Projects</a> &nbsp;•&nbsp;
-  <a href="#toolbox">Toolbox</a> &nbsp;•&nbsp;
-  <a href="#activity">Activity</a>
-</div>
-
----
-
-<a id="agentgate"></a>
-
-## 🛡️ Featured Project · AgentGate
-
-**A release gate that tests AI agents for security regressions before a configuration change ships.**
-
-Developed as a **team hackathon project** at Secure Horizons. Instead of assuming a prompt or tool change is safe, AgentGate runs adversarial tests against a trusted baseline and a candidate, measures the difference, and records the release decision.
-
-<div align="center">
-  <img alt="16 adversarial attacks" src="https://img.shields.io/badge/Attack%20Suite-16%20Scenarios-0891B2?style=flat-square" />
-  <img alt="320 trials per configuration" src="https://img.shields.io/badge/Evaluation-320%20Trials%2FConfig-2563EB?style=flat-square" />
-  <img alt="Release decisions" src="https://img.shields.io/badge/Verdicts-ALLOW%20%7C%20REVIEW%20%7C%20BLOCK-7C3AED?style=flat-square" />
-  <img alt="Signed ledger" src="https://img.shields.io/badge/Evidence-Ed25519%20Signed-0F766E?style=flat-square" />
-</div>
-
-<br />
-
-| What it tackles | How |
-| :-- | :-- |
-| **Prompt injection & tool misuse** | Tests malicious instructions planted across user turns, email, documents and tool descriptions. |
-| **Uncertain safety claims** | Uses deterministic breach checks and Wilson confidence intervals instead of asking an LLM to grade itself. |
-| **Hard-to-audit deployments** | Produces signed, tamper-evident decision records and exportable evidence packs. |
-| **Finding the risky edit** | Isolates configuration changes to identify regressions and interactions. |
-
-**Built with:** `Python` · `Amazon Bedrock` · `Streamlit` · `Cryptography` · `Statistical Testing` · `AI Agent Evaluation`
+<!-- PROFILE REPOSITORY: github.com/hadi-ce04/hadi-ce04 -->
+<!-- EDITORIAL SYSTEM: paper / ink / vermilion / forest -->
 
 <p align="center">
-  <a href="https://github.com/hadi-ce04/agentgate">
-    <img alt="Explore AgentGate code" src="https://img.shields.io/badge/Explore%20the%20Code-0D1117?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://github.com/hadi-ce04/agentgate/blob/main/evidence/samples/pack_v7_llama.pdf">
-    <img alt="View sample evidence pack" src="https://img.shields.io/badge/View%20Evidence%20Pack-0E7490?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
-  </a>
+  <img src="assets/masthead.svg" alt="Abdul Hadi. Engineering Notebook. Software, intelligent systems, and physical computing." width="100%" />
 </p>
 
-<details>
-<summary><b>🔎 Open the AgentGate architecture</b></summary>
-
-<br />
-
-```mermaid
-flowchart TD
-    A[Trusted baseline] --> C[16 adversarial scenarios]
-    B[Candidate configuration] --> C
-    C --> D[Run trials on deployed model]
-    D --> E[Deterministic breach checks]
-    E --> F[Statistical release gate]
-    F --> G{Verdict}
-    G --> H[ALLOW]
-    G --> I[REVIEW]
-    G --> J[BLOCK]
-    G --> K[Signed ledger and evidence pack]
-```
-
-AgentGate also supports change attribution, signed human overrides, and scheduled rechecks. The project uses synthetic test data, and the gate evaluates configured attack scenarios rather than guaranteeing complete security.
-
-</details>
-
----
-
-## 👨‍💻 A Little About Me
-
-I'm a **Computer Engineering student** who likes building things that connect software to the real world. I'm especially drawn to the boundary between intelligent software, physical systems and reliable infrastructure.
-
-I enjoy the full cycle: **idea → experiment → working prototype → improvement**. That might mean testing an AI agent, streaming telemetry from simulated machines, or getting an object detector running on camera input.
-
-**What I'm focused on:**
-
-- 🤖 **Robotics:** autonomous systems, ROS2 and robot perception
-- 🧠 **AI:** computer vision, LLM-powered agents and evaluation
-- ⚙️ **Automation:** practical workflows, tooling and system integration
-- 🌐 **Software:** full-stack apps and real-time architectures
-- 🔌 **Embedded:** connecting code, sensors and hardware
-
----
-
-<a id="projects"></a>
-
-## 🚀 Other Projects
-
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📚 <a href="https://github.com/hadi-ce04/studysync">StudySync</a></h3>
-      <p><b>Study together. Stay focused.</b></p>
-      <p>A collaborative study application with real-time study rooms, Pomodoro sessions, tasks, shared music and AI-assisted learning.</p>
-      <p><code>React</code> <code>TypeScript</code> <code>FastAPI</code> <code>WebSockets</code> <code>Tailwind</code></p>
-      <a href="https://github.com/hadi-ce04/studysync"><img alt="StudySync source" src="https://img.shields.io/badge/Source-0D1117?style=flat-square&logo=github&logoColor=white" /></a>
-      <a href="https://studysync-henna-delta.vercel.app"><img alt="StudySync live demo" src="https://img.shields.io/badge/Live%20Demo-2563EB?style=flat-square&logo=vercel&logoColor=white" /></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/hadi-ce04/sentinelgrid">SentinelGrid</a></h3>
-      <p><b>Real-time visibility into simulated machines.</b></p>
-      <p>An industrial fleet simulator and monitoring dashboard with live machine telemetry, anomaly detection, fault injection and incident alerts.</p>
-      <p><code>Python</code> <code>FastAPI</code> <code>WebSockets</code> <code>JavaScript</code></p>
-      <a href="https://github.com/hadi-ce04/sentinelgrid"><img alt="SentinelGrid source" src="https://img.shields.io/badge/Explore%20Project-0D1117?style=flat-square&logo=github&logoColor=white" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3>👁️ <a href="https://github.com/hadi-ce04/robot-vision-yolo">Robot Vision YOLO</a></h3>
-      <p><b>Giving camera-equipped systems a way to understand their surroundings.</b></p>
-      <p>A real-time object-detection experiment using YOLO and OpenCV, exploring the perception layer for future robotics applications.</p>
-      <p><code>Python</code> <code>YOLO</code> <code>OpenCV</code> <code>Computer Vision</code></p>
-      <a href="https://github.com/hadi-ce04/robot-vision-yolo"><img alt="Robot Vision YOLO source" src="https://img.shields.io/badge/Explore%20Project-0D1117?style=flat-square&logo=github&logoColor=white" /></a>
-    </td>
-  </tr>
+<tr>
+<td width="67%" valign="top">
+
+### Building systems that leave the screen.
+
+Computer Engineering student currently studying at **EPITECH Paris**. I work across intelligent software, computer vision, automation and real-time systems.
+
+I like the entire process: asking the question, making a prototype, testing its assumptions, and figuring out where it breaks.
+
+**Currently exploring:** agent evaluation, robot perception, reliable automation and the boundaries between software and hardware.
+
+[Selected work ↓](#02--selected-work) &nbsp;·&nbsp; [How I build ↓](#03--the-method) &nbsp;·&nbsp; [Get in touch ↓](#05--contact)
+
+</td>
+<td width="33%" valign="top">
+<img src="assets/portrait.jpg" width="280" alt="Portrait of Abdul Hadi" />
+</td>
+</tr>
 </table>
 
 ---
 
-<a id="toolbox"></a>
+<sub>01 / FEATURED STUDY</sub>
 
-## 🧰 Toolbox
+# AgentGate.
 
-**Languages & web**
+**An evidence-driven release gate for changes to AI agent configurations.**
 
-<img alt="Python, C++, JavaScript, TypeScript, React" src="https://skillicons.dev/icons?i=python,cpp,js,ts,react&theme=dark" />
+[Source code](https://github.com/hadi-ce04/agentgate) &nbsp; / &nbsp; [Sample evidence pack](https://github.com/hadi-ce04/agentgate/blob/main/evidence/samples/pack_v7_llama.pdf)
 
-**Backend, tools & infrastructure**
+Created with a team at the **Secure Horizons hackathon**. The question was simple: *when an agent's prompts, tools or configuration change, how do we know whether the new version is less safe?*
 
-<img alt="FastAPI, Docker, Linux, Git, Arduino and Raspberry Pi" src="https://skillicons.dev/icons?i=fastapi,docker,linux,git,arduino,raspberrypi&theme=dark" />
+Rather than asking another model for a subjective safety score, AgentGate compares a trusted baseline with a candidate using adversarial scenarios, deterministic breach checks and a statistical release gate.
 
-**AI, robotics & automation**
+![AgentGate evaluation flow: baseline and candidate configurations pass through an attack suite, breach checks and statistical release gate.](assets/agentgate-diagram.svg)
 
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-111827?style=flat-square&logo=ultralytics&logoColor=white)
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Amazon Bedrock](https://img.shields.io/badge/Amazon%20Bedrock-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+| The engineering problem | The approach |
+| :--- | :--- |
+| Prompt injection and tool misuse | Test malicious instructions across user input, documents, messages and tool descriptions. |
+| Uncertain claims about safety | Apply deterministic checks and Wilson confidence intervals to observed outcomes. |
+| Changes that are hard to audit | Record decisions in signed, tamper-evident evidence packs. |
+| Regressions with unclear causes | Isolate edits and investigate their effect on test outcomes. |
+
+`Python` `Amazon Bedrock` `Streamlit` `Cryptography` `Statistical evaluation`
+
+<sub>TEST CONFIGURATION DOCUMENTED IN THE PROJECT: 16 ADVERSARIAL SCENARIOS / 320 TRIALS PER CONFIGURATION / ALLOW · REVIEW · BLOCK</sub>
 
 <details>
-<summary><b>📍 What I'm exploring right now</b></summary>
-
-- **Robotics:** ROS2, simulation pipelines, control and robot perception
-- **AI:** agent evaluation, adversarial testing and computer vision
-- **Systems:** real-time communication, streaming telemetry and embedded interfaces
-- **Automation:** Python, Docker, n8n and repeatable developer workflows
-
+<summary><b>What this project taught me</b></summary>
+<br />
+Security decisions need observable evidence and explicit assumptions. A statistical gate can detect regressions in the scenarios it tests, but it cannot prove an agent is universally safe. The project uses synthetic test data and makes that scope explicit.
 </details>
 
 ---
 
-<a id="activity"></a>
+<sub>02 / SELECTED WORK</sub>
 
-## 📈 GitHub Activity
+# A few things I've built.
 
-<div align="center">
-  <img width="95%" alt="GitHub contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=hadi-ce04&bg_color=0D1117&color=22D3EE&line=0891B2&point=FFFFFF&area=true&hide_border=true" />
-</div>
+### 001 &nbsp; StudySync
+
+**A shared workspace for focused study.** Real-time study rooms, Pomodoro sessions, task tracking, shared music and AI-assisted learning. The interesting engineering challenge is making collaborative state feel immediate and coherent across clients.
+
+`React` `TypeScript` `FastAPI` `WebSockets` `Tailwind`
+
+[Repository](https://github.com/hadi-ce04/studysync) &nbsp; ↗ &nbsp; [Live application](https://studysync-henna-delta.vercel.app)
 
 ---
 
-## 🤝 Let's Build Something
+### 002 &nbsp; SentinelGrid
 
-I enjoy **hackathons, open-source experiments and collaborating with people who like turning ideas into real working systems**. If you're working on something involving agents, robotics, intelligent automation or real-time software, I'd love to hear about it.
+**A simulated industrial fleet you can observe and disrupt.** Live machine telemetry, anomaly detection, fault injection and incident alerts. A study in streaming state, observability and how interfaces communicate failure.
 
-<div align="center">
-  <a href="https://github.com/hadi-ce04">
-    <img alt="Follow on GitHub" src="https://img.shields.io/badge/Find%20Me%20on%20GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <p>Discord: <code>hadi__x4__93060</code></p>
-  <img width="100%" alt="Footer wave" src="https://capsule-render.vercel.app/api?type=waving&height=95&section=footer&color=0:0D1117,50:172554,100:0891B2" />
-</div>
+`Python` `FastAPI` `WebSockets` `JavaScript`
+
+[Repository](https://github.com/hadi-ce04/sentinelgrid)
+
+---
+
+### 003 &nbsp; Robot Vision YOLO
+
+**Experiments in machine perception.** Real-time object detection using YOLO and OpenCV, exploring the perception layer that a camera-equipped robotic system needs before it can react to the world.
+
+`Python` `YOLO` `OpenCV` `Computer Vision`
+
+[Repository](https://github.com/hadi-ce04/robot-vision-yolo)
+
+---
+
+<sub>03 / THE METHOD</sub>
+
+# Observe. Prototype. Test. Refine.
+
+I don't see projects as finished screenshots. I'm interested in what changes between the first working version and the version that can survive real use.
+
+**01 / Observe** &nbsp; Understand the problem, the users and the constraints.
+
+**02 / Prototype** &nbsp; Build the smallest real system that can challenge an assumption.
+
+**03 / Test** &nbsp; Measure behavior, reproduce failure and question easy conclusions.
+
+**04 / Refine** &nbsp; Improve the architecture, the interface and the documentation.
+
+---
+
+<sub>04 / WORKING MATERIALS</sub>
+
+# My toolbox, in context.
+
+| Area | Tools and techniques |
+| :--- | :--- |
+| **Languages & interfaces** | Python, C++, JavaScript, TypeScript, React |
+| **Services & infrastructure** | FastAPI, WebSockets, Docker, Linux, Git |
+| **Intelligent systems** | YOLO, OpenCV, Amazon Bedrock, LLM agents |
+| **Robotics & physical computing** | ROS2, Arduino, Raspberry Pi |
+| **Automation** | Python workflows, n8n, system integrations |
+
+<sub>These are tools I use or explore, not a claim of equal expertise in all of them.</sub>
+
+---
+
+<sub>05 / CONTACT</sub>
+
+# Have an interesting problem?
+
+I enjoy hackathons, engineering experiments and working with people who care about turning ideas into something testable.
+
+**GitHub** &nbsp; [@hadi-ce04](https://github.com/hadi-ce04)  
+**Discord** &nbsp; `hadi__x4__93060`  
+**StudySync** &nbsp; [Open the live app](https://studysync-henna-delta.vercel.app)
+
+---
+
+<sub>ABDUL HADI &nbsp; / &nbsp; ENGINEERING NOTEBOOK &nbsp; / &nbsp; BUILT TO BE READ, NOT SCROLLED PAST.</sub>
